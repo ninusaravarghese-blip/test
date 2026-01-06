@@ -1,0 +1,47 @@
+{
+  "currentUserLogin": "ninusaravarghese-blip",
+  "threadUrl": "https://github.com/copilot/c/35680a2f-65bf-4de5-be88-b2355c449349",
+  "threadName": "Function for adding two numbers",
+  "messages": [
+    {
+      "id": "root",
+      "role": "user",
+      "createdAt": "",
+      "threadID": "",
+      "references": null
+    },
+    {
+      "id": "56a9a301-bb35-4eb3-8f72-023bff6206c1",
+      "parentMessageID": "root",
+      "intent": "conversation",
+      "role": "user",
+      "content": "create a simple function for addition of 2 numbers",
+      "createdAt": "2026-01-06T07:11:06.748415235Z",
+      "threadID": "35680a2f-65bf-4de5-be88-b2355c449349",
+      "references": [],
+      "skillExecutions": []
+    },
+    {
+      "id": "a087f041-d84e-4ab0-b296-a4f34edffd72",
+      "parentMessageID": "56a9a301-bb35-4eb3-8f72-023bff6206c1",
+      "intent": "conversation",
+      "role": "assistant",
+      "content": "Which language would you like? Here are very small examples in Python, JavaScript, and TypeScript — pick one or tell me another language.\n\nPython\n```python\ndef add(a, b):\n    return a + b\n\n# example\nprint(add(2, 3))  # 5\n```\n\nJavaScript\n```javascript\nfunction add(a, b) {\n  return a + b;\n}\n\n// example\nconsole.log(add(2, 3)); // 5\n```\n\nTypeScript\n```typescript\nfunction add(a: number, b: number): number {\n  return a + b;\n}\n\n// example\nconsole.log(add(2, 3)); // 5\n```\n\nWant this as a file (and which filename/language), or another language (Java, C, Go, etc.)?",
+      "createdAt": "2026-01-06T07:11:06.748442866Z",
+      "threadID": "35680a2f-65bf-4de5-be88-b2355c449349",
+      "references": [],
+      "skillExecutions": []
+    },
+    {
+      "id": "7660e923-a380-43be-ab56-28f679082e0d",
+      "parentMessageID": "a087f041-d84e-4ab0-b296-a4f34edffd72",
+      "role": "user",
+      "content": "Create a to-do list application with local storage functionality.",
+      "createdAt": "2026-01-06T07:17:01.319Z",
+      "threadID": "35680a2f-65bf-4de5-be88-b2355c449349",
+      "references": [],
+      "skillExecutions": []
+    }
+  ],
+  "files": {}
+}
